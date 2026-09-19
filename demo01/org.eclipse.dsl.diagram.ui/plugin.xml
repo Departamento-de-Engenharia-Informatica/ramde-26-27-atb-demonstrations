@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <!-- Views Extension Point -->
+   <extension point="org.eclipse.ui.views">
+      <category
+            id="org.eclipse.dsl.diagram.category"
+            name="DSL Diagram">
+      </category>
+      <view
+            id="org.eclipse.dsl.diagram.ui.views.GenericDiagramView"
+            name="DSL Diagram"
+            category="org.eclipse.dsl.diagram.category"
+            class="org.eclipse.dsl.diagram.ui.views.GenericDiagramView">
+      </view>
+   </extension>
+   
+   <!-- eclare the Extension Point -->
+   <extension-point 
+         id="diagramProviders" 
+         name="DSL Diagram Provider" 
+         schema="schema/diagramProviders.exsd"/>
+
+</plugin>

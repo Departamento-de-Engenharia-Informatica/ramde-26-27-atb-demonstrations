@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: org.eclipse.dsl.diagram.ui;singleton:=true
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.xtext.ui
+Export-Package: org.eclipse.dsl.diagram.ui.api,
+ org.eclipse.dsl.diagram.ui.views,
+ org.eclipse.dsl.diagram.ui.renderer 
+Import-Package: net.sourceforge.plantuml
+Automatic-Module-Name: org.eclipse.dsl.diagram.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-21

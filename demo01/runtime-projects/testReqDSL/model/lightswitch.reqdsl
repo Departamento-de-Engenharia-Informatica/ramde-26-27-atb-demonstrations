@@ -1,0 +1,18 @@
+ReqModel LightSwitch {
+	requirement {
+		Requirement REQ01 {
+			description "Power Control\nThe system shall enable or disable power delivery to the load based on user input."
+		},
+		Requirement REQ02 {
+			description "Multi-Level Brightness\nThe system shall support 3 distinct brightness levels (Low: 30%, Medium: 60%, High:
+100%)."
+		},		
+		Requirement REQ03 {
+			description "Single-Button Brightness Cycle\nThe ON button shall cycle sequentially through brightness levels upon successive
+presses when already powered ON."
+		},
+		Requirement REQ04 {
+			description "OFF State Reset\nPowering OFF the light shall reset the next turn-on state to Level 1 (Low)."
+		}
+	}
+}

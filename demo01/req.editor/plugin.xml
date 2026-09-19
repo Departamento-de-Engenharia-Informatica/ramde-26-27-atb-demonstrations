@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated req -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="req.presentation.ReqModelWizardID"
+            name="%_UI_ReqModelWizard_label"
+            class="req.presentation.ReqModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ReqModelFile.gif">
+         <description>%_UI_ReqModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated req -->
+      <editor
+            id="req.presentation.ReqEditorID"
+            name="%_UI_ReqEditor_label"
+            icon="icons/full/obj16/ReqModelFile.gif"
+            extensions="req"
+            class="req.presentation.ReqEditor"
+            contributorClass="req.presentation.ReqActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
