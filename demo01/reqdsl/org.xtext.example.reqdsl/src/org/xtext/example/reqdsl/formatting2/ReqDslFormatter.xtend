@@ -10,7 +10,7 @@ import org.xtext.example.reqdsl.services.ReqDslGrammarAccess
 import req.ReqModel
 
 class ReqDslFormatter extends AbstractFormatter2 {
-	
+	 
 	@Inject extension ReqDslGrammarAccess
 
 	def dispatch void format(ReqModel reqModel, extension IFormattableDocument document) {

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.ucdsl
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.example.ucdsl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.example.ucdsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: uc,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.19.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.43.0",
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
+ org.xtext.example.reqdsl;bundle-version="1.0.0",
+ org.xtext.example.reqdsl.ide;bundle-version="1.0.0",
+ org.xtext.example.reqdsl.ui;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: org.xtext.example.ucdsl,
+ org.xtext.example.ucdsl.formatting2,
+ org.xtext.example.ucdsl.generator,
+ org.xtext.example.ucdsl.parser.antlr,
+ org.xtext.example.ucdsl.parser.antlr.internal,
+ org.xtext.example.ucdsl.scoping,
+ org.xtext.example.ucdsl.serializer,
+ org.xtext.example.ucdsl.services,
+ org.xtext.example.ucdsl.validation
+Import-Package: org.apache.log4j

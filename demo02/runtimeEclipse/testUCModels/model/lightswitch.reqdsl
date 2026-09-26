@@ -1,0 +1,16 @@
+ReqModel lightSwicthReq {
+	requirement {
+		Requirement REQ01 {
+			description "Power Control\nThe system shall enable or disable power delivery to the load based on user input"
+		},
+		Requirement REQ02 {
+			description "Multi-level Brightness\nThe system shall support 3 distinct brightness levels (low: 30%, medium: 60%, high: 100%"
+		},
+		Requirement REQ03 {
+			description "Single-button Brightness Cycle\nThe ON button shall cycle sequentially through brightness levels upon successive presses when already powered on"
+		},
+		Requirement REQ04 {
+			description "OFF State Reset\nPowering OFF the light shall reset the next turn-on state to level 1 (low)"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+UCModel lightswitch {
+	usecase {
+		UseCase turnOn {
+			refine "lightSwicthReq.REQ01"
+		},
+		UseCase turnOff {
+			 refine "lightSwicthReq.REQ01"
+		},
+		UseCase changeBrightnessLevel {
+			refine "lightSwicthReq.REQ03"
+		}
+	}
+	actor {  Actor User, Actor Light }	
+}

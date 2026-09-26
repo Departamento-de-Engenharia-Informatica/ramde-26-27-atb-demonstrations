@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+allowmixing
+
+usecase "turnOn" as turnOn
+usecase "turnOff" as turnOff
+
+object REQ01
+turnOn ..> REQ01 : satisfies
+@enduml
