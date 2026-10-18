@@ -1,0 +1,17 @@
+LSModel ISEP { 
+	rooms {
+		Room b309 {
+			lights {
+				Light light1 { 
+					lumens 1300.0
+					dimLevel 14.0 
+				}
+			}
+			lightswitchs {
+				LightSwitch sw1 {
+					lights ( light1 )
+				}
+			}
+		}
+	}
+}

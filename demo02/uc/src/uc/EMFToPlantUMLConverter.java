@@ -68,7 +68,7 @@ public class EMFToPlantUMLConverter {
 				
 			}
 		}
-		
+				
 		sb.append("@enduml");
 		return sb.toString();
 	}

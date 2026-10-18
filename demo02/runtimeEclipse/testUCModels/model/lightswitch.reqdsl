@@ -11,6 +11,9 @@ ReqModel lightSwicthReq {
 		},
 		Requirement REQ04 {
 			description "OFF State Reset\nPowering OFF the light shall reset the next turn-on state to level 1 (low)"
+			dependsOn (
+				REQ01
+			)
 		}
 	}
 }

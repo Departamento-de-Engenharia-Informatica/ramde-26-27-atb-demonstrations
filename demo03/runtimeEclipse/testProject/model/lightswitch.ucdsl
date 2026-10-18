@@ -1,0 +1,6 @@
+UCModel lightswitch {
+	usecase {
+		UseCase turnOn { refine "lightswitch.REQ01" },  
+		UseCase turnOff  {  }
+	}
+}
