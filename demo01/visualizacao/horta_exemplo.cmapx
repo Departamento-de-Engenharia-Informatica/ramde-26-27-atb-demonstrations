@@ -1,0 +1,5 @@
+<map id="horta_exemplo_map" name="horta_exemplo_map">
+<area shape="rect" id="id1" href="H03" title="H03" alt="" coords="190,7,213,24"/>
+<area shape="rect" id="id2" href="H02" title="H02" alt="" coords="190,103,213,120"/>
+<area shape="rect" id="id3" href="H01" title="H01" alt="" coords="190,199,213,216"/>
+</map>

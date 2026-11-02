@@ -1,0 +1,16 @@
+// Exemplo didatico para treinar a demo01; requisitos propostos para estudo.
+ReqModel HortaDidatica {
+    requirement {
+        Requirement H01 {
+            description "Disponibilizar uma leitura da humidade do solo."
+        },
+        Requirement H02 {
+            description "Decidir a necessidade de rega com base na leitura de humidade."
+            dependsOn (H01)
+        },
+        Requirement H03 {
+            description "Iniciar a rega quando a decisao indicar necessidade de regar."
+            dependsOn (H02)
+        }
+    }
+}
