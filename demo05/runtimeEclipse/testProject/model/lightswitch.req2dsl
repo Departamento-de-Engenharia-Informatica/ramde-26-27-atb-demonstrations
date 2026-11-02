@@ -1,0 +1,8 @@
+ReqModel lightswitch {
+	requirement {
+		Requirement REQ01 {
+			description "The system shall..."
+		} 
+	} 
+	
+}
