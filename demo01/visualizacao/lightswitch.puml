@@ -1,0 +1,27 @@
+@startuml
+' Fotografia manual de ../runtime-projects/testReqDSL/model/lightswitch.reqdsl.
+' As declaracoes abaixo seguem a saida de EMFToPlantUMLConverter.java.
+' Este ficheiro nao e atualizado automaticamente a partir do modelo.
+left to right direction
+
+object "[[REQ01 REQ01]]" as REQ01 {
+  description = Power Control
+The system shall enable or disable power delivery to the load based on user input.
+}
+object "[[REQ02 REQ02]]" as REQ02 {
+  description = Multi-Level Brightness
+The system shall support 3 distinct brightness levels (Low: 30%, Medium: 60%, High:
+100%).
+}
+object "[[REQ03 REQ03]]" as REQ03 {
+  description = Single-Button Brightness Cycle
+The ON button shall cycle sequentially through brightness levels upon successive
+presses when already powered ON.
+}
+object "[[REQ04 REQ04]]" as REQ04 {
+  description = OFF State Reset
+Powering OFF the light shall reset the next turn-on state to Level 1 (Low).
+}
+
+REQ04 .> REQ01 : dependsOn
+@enduml

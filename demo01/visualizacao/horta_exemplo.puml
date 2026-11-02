@@ -1,0 +1,19 @@
+@startuml
+' Fotografia manual de ../runtime-projects/testReqDSL/model/horta_exemplo.reqdsl.
+' Exemplo didatico; nao representa requisitos ja acordados para o projeto.
+' Este ficheiro nao e atualizado automaticamente a partir do modelo.
+left to right direction
+
+object "[[H01 H01]]" as H01 {
+  description = Disponibilizar uma leitura da humidade do solo.
+}
+object "[[H02 H02]]" as H02 {
+  description = Decidir a necessidade de rega com base na leitura de humidade.
+}
+object "[[H03 H03]]" as H03 {
+  description = Iniciar a rega quando a decisao indicar necessidade de regar.
+}
+
+H02 .> H01 : dependsOn
+H03 .> H02 : dependsOn
+@enduml

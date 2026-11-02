@@ -1,0 +1,6 @@
+<map id="lightswitch_map" name="lightswitch_map">
+<area shape="rect" id="id1" href="REQ03" title="REQ03" alt="" coords="197,8,234,24"/>
+<area shape="rect" id="id2" href="REQ04" title="REQ04" alt="" coords="197,216,234,233"/>
+<area shape="rect" id="id3" href="REQ02" title="REQ02" alt="" coords="197,112,234,128"/>
+<area shape="rect" id="id4" href="REQ01" title="REQ01" alt="" coords="197,326,234,343"/>
+</map>
