@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="252px" preserveAspectRatio="none" style="width:409px;height:252px;" version="1.1" viewBox="0 0 409 252" width="409px" zoomAndPan="magnify"><defs><filter height="300%" id="f15i5mbfcx4fcp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f15i5mbfcx4fcp)" height="41.9641" style="stroke: #A80036; stroke-width: 1.5;" width="310" x="47" y="200"/><a href="H01" target="_top" title="H01" xlink:actuate="onRequest" xlink:href="H01" xlink:show="new" xlink:title="H01" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="23" x="190.5" y="214.8281">H01</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="48" x2="356" y1="220.3441" y2="220.3441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="298" x="53" y="235.0341">description = Disponibilizar uma leitura da humidade do solo.</text><rect fill="#FEFECE" filter="url(#f15i5mbfcx4fcp)" height="41.9641" style="stroke: #A80036; stroke-width: 1.5;" width="392" x="6" y="104"/><a href="H02" target="_top" title="H02" xlink:actuate="onRequest" xlink:href="H02" xlink:show="new" xlink:title="H02" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="23" x="190.5" y="118.8281">H02</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="397" y1="124.3441" y2="124.3441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="380" x="12" y="139.0341">description = Decidir a necessidade de rega com base na leitura de humidade.</text><rect fill="#FEFECE" filter="url(#f15i5mbfcx4fcp)" height="41.9641" style="stroke: #A80036; stroke-width: 1.5;" width="376" x="14" y="8"/><a href="H03" target="_top" title="H03" xlink:actuate="onRequest" xlink:href="H03" xlink:show="new" xlink:title="H03" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="23" x="190.5" y="22.8281">H03</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="15" x2="389" y1="28.3441" y2="28.3441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="364" x="20" y="43.0341">description = Iniciar a rega quando a decisao indicar necessidade de regar.</text><!--MD5=[5fd73de096cdfb0a11a5aee21e8aded3]
+link H02 to H01--><path d="M202,146.25 C202,160.53 202,179.45 202,194.68 " fill="none" id="H02-&gt;H01" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="202,199.69,206,190.69,202,194.69,198,190.69,202,199.69" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="154.5" y="178.397">dependsOn</text><!--MD5=[5316cabd50ea7f68b0d545e83ae7391d]
+link H03 to H02--><path d="M202,50.25 C202,64.53 202,83.45 202,98.68 " fill="none" id="H03-&gt;H02" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="202,103.69,206,94.69,202,98.69,198,94.69,202,103.69" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="154.5" y="82.397">dependsOn</text><!--MD5=[ed8462e28197d257453f216bb68c7e7d]
+@startuml
+left to right direction
+
+object "[[H01 H01]]" as H01 {
+  description = Disponibilizar uma leitura da humidade do solo.
+}
+object "[[H02 H02]]" as H02 {
+  description = Decidir a necessidade de rega com base na leitura de humidade.
+}
+object "[[H03 H03]]" as H03 {
+  description = Iniciar a rega quando a decisao indicar necessidade de regar.
+}
+
+H02 .> H01 : dependsOn
+H03 .> H02 : dependsOn
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 WET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.12.1+1-1-24.04.4-Ubuntu
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

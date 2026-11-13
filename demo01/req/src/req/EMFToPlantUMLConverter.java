@@ -69,26 +69,6 @@ public class EMFToPlantUMLConverter {
 	 * @param targetName The name of the requirement to locate.
 	 * @return The matching EObject requirement, or null if not found.
 	 */
-	public static EObject findObjectByName(EObject root, String targetName) {
-		if (root == null || targetName == null || targetName.isBlank()) {
-			return null;
-		}
-
-		// 1. Check if the current EObject itself matches targetName
-		if (hasMatchingName(root, targetName)) {
-			return root;
-		}
-
-		// 2. Iterate through all child contents recursively
-		var iterator = root.eAllContents();
-		while (iterator.hasNext()) {
-			EObject element = iterator.next();
-			if (hasMatchingName(element, targetName)) {
-				return element;
-			}
-		}
-
-		return null;
 	}
 
 	/**

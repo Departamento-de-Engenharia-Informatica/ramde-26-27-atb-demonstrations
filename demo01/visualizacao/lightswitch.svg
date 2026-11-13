@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="393px" preserveAspectRatio="none" style="width:436px;height:393px;" version="1.1" viewBox="0 0 436 393" width="436px" zoomAndPan="magnify"><defs><filter height="300%" id="fp98c4ggae9bu" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fp98c4ggae9bu)" height="55.5841" style="stroke: #A80036; stroke-width: 1.5;" width="412" x="9.5" y="327"/><a href="REQ01" target="_top" title="REQ01" xlink:actuate="onRequest" xlink:href="REQ01" xlink:show="new" xlink:title="REQ01" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="37" x="197" y="341.8281">REQ01</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="10.5" x2="420.5" y1="347.3441" y2="347.3441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="134" x="15.5" y="362.0341">description = Power Control</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="400" x="15.5" y="375.6541">The system shall enable or disable power delivery to the load based on user input.</text><rect fill="#FEFECE" filter="url(#fp98c4ggae9bu)" height="69.2041" style="stroke: #A80036; stroke-width: 1.5;" width="419" x="6" y="112.5"/><a href="REQ02" target="_top" title="REQ02" xlink:actuate="onRequest" xlink:href="REQ02" xlink:show="new" xlink:title="REQ02" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="37" x="197" y="127.3281">REQ02</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="424" y1="132.8441" y2="132.8441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="174" x="12" y="147.5341">description = Multi-Level Brightness</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="407" x="12" y="161.1541">The system shall support 3 distinct brightness levels (Low: 30%, Medium: 60%, High:</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="32" x="12" y="174.7741">100%).</text><rect fill="#FEFECE" filter="url(#fp98c4ggae9bu)" height="69.2041" style="stroke: #A80036; stroke-width: 1.5;" width="406" x="12.5" y="8.5"/><a href="REQ03" target="_top" title="REQ03" xlink:actuate="onRequest" xlink:href="REQ03" xlink:show="new" xlink:title="REQ03" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="37" x="197" y="23.3281">REQ03</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="13.5" x2="417.5" y1="28.8441" y2="28.8441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="214" x="18.5" y="43.5341">description = Single-Button Brightness Cycle</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="394" x="18.5" y="57.1541">The ON button shall cycle sequentially through brightness levels upon successive</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="172" x="18.5" y="70.7741">presses when already powered ON.</text><rect fill="#FEFECE" filter="url(#fp98c4ggae9bu)" height="55.5841" style="stroke: #A80036; stroke-width: 1.5;" width="366" x="32.5" y="217"/><a href="REQ04" target="_top" title="REQ04" xlink:actuate="onRequest" xlink:href="REQ04" xlink:show="new" xlink:title="REQ04" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="37" x="197" y="231.8281">REQ04</text></a><line style="stroke: #A80036; stroke-width: 1.5;" x1="33.5" x2="397.5" y1="237.3441" y2="237.3441"/><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="142" x="38.5" y="252.0341">description = OFF State Reset</text><text fill="#000000" font-family="sans-serif" font-size="10" lengthAdjust="spacingAndGlyphs" textLength="354" x="38.5" y="265.6541">Powering OFF the light shall reset the next turn-on state to Level 1 (Low).</text><!--MD5=[0013bfae3b2643e46edeaf7614b3f1bb]
+link REQ04 to REQ01--><path d="M215.5,273.37 C215.5,288.18 215.5,306.38 215.5,321.83 " fill="none" id="REQ04-&gt;REQ01" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="215.5,326.96,219.5,317.96,215.5,321.96,211.5,317.96,215.5,326.96" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="168" y="305.397">dependsOn</text><!--MD5=[2bc5818ecd1d166f51a6546d2ed9dc61]
+@startuml
+left to right direction
+
+object "[[REQ01 REQ01]]" as REQ01 {
+  description = Power Control
+The system shall enable or disable power delivery to the load based on user input.
+}
+object "[[REQ02 REQ02]]" as REQ02 {
+  description = Multi-Level Brightness
+The system shall support 3 distinct brightness levels (Low: 30%, Medium: 60%, High:
+100%).
+}
+object "[[REQ03 REQ03]]" as REQ03 {
+  description = Single-Button Brightness Cycle
+The ON button shall cycle sequentially through brightness levels upon successive
+presses when already powered ON.
+}
+object "[[REQ04 REQ04]]" as REQ04 {
+  description = OFF State Reset
+Powering OFF the light shall reset the next turn-on state to Level 1 (Low).
+}
+
+REQ04 .> REQ01 : dependsOn
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 WET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.12.1+1-1-24.04.4-Ubuntu
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

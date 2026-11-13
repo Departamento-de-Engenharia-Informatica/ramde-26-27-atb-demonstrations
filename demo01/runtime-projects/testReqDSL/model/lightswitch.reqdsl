@@ -13,6 +13,7 @@ presses when already powered ON."
 		},
 		Requirement REQ04 {
 			description "OFF State Reset\nPowering OFF the light shall reset the next turn-on state to Level 1 (Low)."
+			dependsOn (REQ01)
 		}
 	}
 }
