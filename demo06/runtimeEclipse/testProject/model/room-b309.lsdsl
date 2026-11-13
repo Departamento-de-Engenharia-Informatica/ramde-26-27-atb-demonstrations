@@ -1,0 +1,45 @@
+LSModel ISEP { 
+	rooms { 
+		Room B309 {
+			area 1200.0
+			max_lux 1500.0
+			min_lux 9.0 
+			lights {
+				Light light1 {  
+					lumens 1000.0
+					dimLevel 0.4 
+				},
+				Light light2 {
+					lumens 600.0
+					dimLevel 0.3
+				}
+			} 
+			batterypoweredsecuritylights {
+				BatteryPoweredSecurityLight blight1
+			}
+			lightswitchs {
+				LightSwitch sw1 { 
+					lights ( light1, light2  ) 
+				}
+			}  
+			 
+		}
+		, Room B407 {
+			area 1200.0
+			max_lux 2000.0
+			min_lux 9.0
+			lights {
+				Light l2 {
+					lumens 1300.0
+					dimLevel 0.3
+				}
+				, Light l3 {
+					lumens 900.0
+					dimLevel 0.4
+				}
+				
+				
+			}
+		}
+	}
+}

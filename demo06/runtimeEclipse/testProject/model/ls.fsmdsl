@@ -1,0 +1,55 @@
+FSMModel ls {
+	appliesTo "ISEP.B309.sw1"  
+	state { 
+		State LightOff { appliesTo "ISEP.B309.light1" outputOperationName turnOff }, 
+		State LightOnDimmed { appliesTo "ISEP.B309.light1" outputOperationName turnOnLevel ( operationParameterValue '0.3') }, 
+		State LightOnMedium { appliesTo "ISEP.B309.light1" outputOperationName turnOnLevel ( operationParameterValue '0.6')}, 
+		State LightOnBright { appliesTo "ISEP.B309.light1" outputOperationName turnOnLevel ( operationParameterValue '1')}
+	} 
+	initialState LightOff
+	event {   
+		Event OnPressed { 
+			operationName 'buttonOn'
+		}, 
+		Event OffPressed {
+			operationName 'buttonOff'
+		} 
+	} 
+	transition {
+		Transition LightOff2LightOnDimmed {
+			sourceState LightOff
+			targetState LightOnDimmed
+			event OnPressed 
+		},
+		Transition LightOnDimmed2LightOnMedium {
+			sourceState LightOnDimmed
+			targetState LightOnMedium
+			event OnPressed
+		},
+		Transition LightOnMedium2LightOnBright {
+			sourceState LightOnMedium
+			targetState LightOnBright
+			event OnPressed
+		},
+		Transition LightOnBright2LightOnDimmed {
+			sourceState LightOnBright
+			targetState LightOnDimmed
+			event OnPressed
+		},
+		Transition LightOnDimmed2LightOff {
+			sourceState LightOnDimmed
+			targetState LightOff
+			event OffPressed
+		},
+		Transition LightOnMedium2LightOff {
+			sourceState LightOnMedium
+			targetState LightOff
+			event OffPressed
+		},
+		Transition LightOnBright2LightOff {
+			sourceState LightOnBright
+			targetState LightOff
+			event OffPressed
+		}
+	}
+}
